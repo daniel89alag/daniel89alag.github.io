@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto integrador</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <body class="sitio">
+        <header class="encabezado">
+          <div class="logo">
+            <figure class="imagen">
+                <img src="logo.jpg" >
+            </figure>
+          </div>
+        </header>
+      
+          <figure class="imagen">
+              <img src='https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt=''>
+          </figure>
+      
+          <main id="content" class="principal">
+              <section class="area-central">
+                  <div class="area-central-contenido">
+                      <h2>Agenda de Citas</h2>
+                      <div class="area-central-texto">
+                        <table class="table" id="tabla">
+                            <thead class="thead-inverse">
+                            <tr>
+                              <th>Fecha</th>
+                              <th>Nombre</th>
+                              <th>Apellido</th>
+                              <th>Sexo</th>
+                              <th>Correo</th>
+                              <th>codigo</th>
+                                                 
+                    
+                            </tr>
+                          </thead>
+                          <tbody id="tableBody">   
+                          </tbody>
+                        </table>
+                      </div>
+                  </div>
+              </section>
+      
+              <section class="intermedia">
+                  <ul>
+                      <li>
+                          <img src='https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80' alt=''>
+                          <div class="area-intermedia">
+                              <h3>Casas</h3>
+                              <p>
+                                Lavandería, Eficiencia energética (aparatos y ventanas), Patio, Ventilador de techo, Espacio de almacenamiento en el garaje, Iluminación exterior, Despensa y Pisos de madera dura.
+                              </p>
+                          </div>
+                      </li>
+                      <li>
+                         <img src='https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80' alt=''>
+                          <div class="area-intermedia">
+                              <h3>Departamentos</h3>
+                              <p>Buena ubicación, Buena distribución, Suficientes habitaciones, Cocina, Luz natural, Lavandería, Bienestar y comodidad.</p>
+                          </div>
+                      </li>
+                  </ul>
+              </section>
+      
+              <section class="inferior">
+                  <div class="contenido-inferior">
+                      <h2>Roy T. Bennet</h2>
+                      <p>"Rodéate de personas que crean en tus sueños, animen tus ideas, apoyen tus ambiciones, y saquen lo mejor de ti"<p>
+                  </div>
+              </section>
+      
+          </main>
+      
+          <aside class="lateral">
+              
+              <div class="barra-lateral">
+                <h2>Registra tu visita</h2>
+                <form>
+                    <label>Nombre</label><br>
+                    <input id="nombre" type="text" name="usuariolg"  required="" /><br>
+                    <label>Apellido</label><br>
+                    <input id="nombre" type="text" name="usuariolg"  required="" /><br>
+                    <label>Sexo</label><br>
+                    <input id="nombre" type="text" name="usuariolg"  required="" /><br>
+                    <label>correo</label><br>
+                    <input id="nombre" type="email" name="usuariolg"  required="" /><br>
+                    <button type="button" id="nuevo" class="form_submit">Enviar</button>  
+                </form>
+              </div>
+          </aside>
+      
+          <footer class="pie-de-pagina">
+          <p>Alumno: Daniel Alvarado Aguilar</p>
+          <p>Asesor: Lic. Oscar Gregorio Silva Mares</p>
+          <p>Materia: Conceptualización de servicios en la nube</p>
+           
+          </footer>
+          
+          <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          
+          <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+          
+          <script src="app.js"></script>
+      </body> 
+</body>
+</html>
